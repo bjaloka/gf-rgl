@@ -344,7 +344,6 @@ param
 
   predV : VVerb -> VP = predVGen False ;
 
-
   predVGen : Bool -> VVerb -> VP = \isAux, verb -> {
     s = verb ;
     a1  : Polarity => Str = negation ;
